@@ -31,7 +31,9 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/Kitura/BlueRSA.git", from: "1.0.200"),
+//        .package(url: "https://github.com/Kitura/BlueRSA.git", from: "1.0.200"),
+        .package(url: "https://github.com/geertberkers/BlueRSA.git", from: "1.0.37"),
+
         .package(url: "https://github.com/Kitura/BlueCryptor.git", from: "1.0.0"),
         .package(url: "https://github.com/Kitura/BlueECC.git", from: "1.1.0"),
         .package(url: "https://github.com/Kitura/LoggerAPI.git", from: "1.7.0"),
