@@ -41,7 +41,7 @@ let package = Package(
     ],
     targets: [
         .target(name: "SwiftJWT", dependencies: ["CryptorRSA", "LoggerAPI", "KituraContracts", "Cryptor", "CryptorECC"]),
-        .testTarget(name: "SwiftJWTTests", dependencies: ["SwiftJWT"])
+        .testTarget(name: "SwiftJWTTests", dependencies: ["SwiftJWT", "LoggerAPI"])
 	]
 )
 
